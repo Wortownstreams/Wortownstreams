@@ -32,6 +32,18 @@
     <website></website>
     <email></email>
     <source></source>
-  </extension>
+</extension>
 </addon>
-</addons>
+
+<addon id="repository.supremebuilds" name="Supreme Builds Repository" version="1.0.0" provider-name="KodiSkills">
+	<extension point="xbmc.addon.repository" name="Supreme Builds Repository">
+		<info compressed="false">https://raw.githubusercontent.com/wortownstreams/wortownstreams/master/addon.xml</info>
+		<checksum>https://raw.githubusercontent.com/wortownstreams/wortownstreams/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/wortownstreams/wortownstreams/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Wortownstreams Repository</summary>
+		<description>Official Repository Of Wortownstreams</description>
+		<platform>all</platform>
+	</extension>
+</addon>
