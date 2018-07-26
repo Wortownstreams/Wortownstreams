@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.wortownstreams" name="Wortownstreams Repository" version="1.0.0" provider-name="Morpheus">
-	<extension point="xbmc.addon.repository" name="Wortownstreams Repository">
-		<info compressed="false">https://raw.githubusercontent.com/wortownstreams/wortownstreams/master/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/wortownstreams/wortownstreams/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/wortownstreams/wortownstreams/raw/master/zips</datadir>
+<addon id="repository.supremebuilds" name="Supreme Builds Repository" version="1.0.0" provider-name="KodiSkills">
+	<extension point="xbmc.addon.repository" name="Supreme Builds Repository">
+		<info compressed="false">https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodiskills/supremebuildsrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/kodiskills/supremebuildsrepo/raw/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Wortownstreams Repository</summary>
-		<description>Official Repository Of Wortownstreams</description>
+		<summary>Supreme Builds Repository</summary>
+		<description>Official Repository Of The Supreme Builds Team</description>
 		<platform>all</platform>
 	</extension>
 </addon>
