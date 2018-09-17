@@ -3,9 +3,24 @@
 
 <addon id="repository.wortownstreams" name="Wortownstreams Repository" version="1.0.0" provider-name="Wortownstreams">
 	<extension point="xbmc.addon.repository" name="Wortownstreams Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/Wortownstreams/Wortownstreams/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Wortownstreams/Wortownstreams/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Wortownstreams/Wortownstreams/raw/master/zips</datadir>
+		<datadir zip="true">https://raw.githubusercontent.com/Wortownstreams/Wortownstreams/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Wortownstreams Repository</summary>
@@ -15,18 +30,19 @@
 </addon>
 
 <addon id="plugin.program.wortownstreams" name="Wortownstreams Wizard" version="1.0" provider-name="Wortownstreams">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Wortownstreams Wizard</summary>
-    <description lang="en">Wortownstreams Wizard allows you to get access to the latest Wortownstreams Custom Builds.</description>
-    <platform>all</platform>
-  </extension>
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="startup.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Wortownstreams Wizard</summary>
+		<description lang="en">Wortownstreams Wizard allows you to get access to the latest Wortownstreams Custom Builds.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	</extension>
 </addon>
 
 </addons>
